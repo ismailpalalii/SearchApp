@@ -183,6 +183,12 @@ extension SearchViewController: UICollectionViewDataSource,UICollectionViewDeleg
         
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let content = searchListViewModel.collectionCellSelected(indexPath.section, indexPath.row)
+        let detailVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
+        detailVC?.detailViewModel = content
+        self.navigationController?.pushViewController(detailVC!, animated: true)
+    }
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let reusableView : UICollectionReusableView! = nil
         

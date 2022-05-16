@@ -88,6 +88,17 @@ final class SearchListViewModel{
         let section = self.searchSegmentList[section]
         return HeaderViewModel(section: section)
     }
+    
+    func getDetailViewModel(_ segment :Int, _ index :Int) -> DetailViewModel{
+        let segment = self.searchSegmentList[segment]
+        let content = SegmentViewModel(segment: segment).contentList[index]
+        return DetailViewModel(content: content)
+    }
+   
+    func collectionCellSelected(_ section :Int, _ index :Int)->DetailViewModel{
+        let content = self.getDetailViewModel(section, index)
+        return content
+    }
 }
 
 

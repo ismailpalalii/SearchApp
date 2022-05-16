@@ -30,6 +30,8 @@
 		17D1EE002832BCCC00DB66DC /* FooterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDFF2832BCCC00DB66DC /* FooterViewModel.swift */; };
 		17D1EE022832BCD800DB66DC /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EE012832BCD700DB66DC /* HeaderViewModel.swift */; };
 		17D1EE042832BCFA00DB66DC /* SearchCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EE032832BCFA00DB66DC /* SearchCollectionCellViewModel.swift */; };
+		17D1EE062832BF5B00DB66DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EE052832BF5B00DB66DC /* DetailViewController.swift */; };
+		17D1EE082832BFA600DB66DC /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EE072832BFA600DB66DC /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		17D1EDFF2832BCCC00DB66DC /* FooterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterViewModel.swift; sourceTree = "<group>"; };
 		17D1EE012832BCD700DB66DC /* HeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewModel.swift; sourceTree = "<group>"; };
 		17D1EE032832BCFA00DB66DC /* SearchCollectionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionCellViewModel.swift; sourceTree = "<group>"; };
+		17D1EE052832BF5B00DB66DC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		17D1EE072832BFA600DB66DC /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +200,7 @@
 		17D1EDEF2832B62F00DB66DC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				17D1EE052832BF5B00DB66DC /* DetailViewController.swift */,
 				17484FC228329C0800004DE5 /* SearchViewController.swift */,
 				17484FC428329C0800004DE5 /* Main.storyboard */,
 				17D1EDF02832B64100DB66DC /* CollectionViewCell */,
@@ -220,6 +225,7 @@
 				17D1EDFF2832BCCC00DB66DC /* FooterViewModel.swift */,
 				17D1EE012832BCD700DB66DC /* HeaderViewModel.swift */,
 				17D1EE032832BCFA00DB66DC /* SearchCollectionCellViewModel.swift */,
+				17D1EE072832BFA600DB66DC /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -362,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17D1EDE72832B2E700DB66DC /* SearchResponseModel.swift in Sources */,
+				17D1EE062832BF5B00DB66DC /* DetailViewController.swift in Sources */,
 				17D1EE002832BCCC00DB66DC /* FooterViewModel.swift in Sources */,
 				17D1EDED2832B4B600DB66DC /* GlobalConstants.swift in Sources */,
 				17D1EDFC2832BBA500DB66DC /* SearchListViewModel.swift in Sources */,
@@ -373,6 +380,7 @@
 				17484FC128329C0800004DE5 /* SceneDelegate.swift in Sources */,
 				17D1EDE42832B26E00DB66DC /* SectionModel.swift in Sources */,
 				17D1EE022832BCD800DB66DC /* HeaderViewModel.swift in Sources */,
+				17D1EE082832BFA600DB66DC /* DetailViewModel.swift in Sources */,
 				17D1EE042832BCFA00DB66DC /* SearchCollectionCellViewModel.swift in Sources */,
 				17D1EDE22832B25400DB66DC /* SearchModel.swift in Sources */,
 				17D1EDF72832B71800DB66DC /* HeaderCollectionViewCell.swift in Sources */,
