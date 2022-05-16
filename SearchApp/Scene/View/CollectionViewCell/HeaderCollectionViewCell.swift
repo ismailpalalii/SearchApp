@@ -29,4 +29,7 @@ class HeaderCollectionViewCell: UICollectionReusableView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    func setTitleValue(with item: HeaderViewModel) {
+        titleLabel.text = item.title
+     }
 }

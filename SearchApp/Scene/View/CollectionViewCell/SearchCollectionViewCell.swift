@@ -58,4 +58,9 @@ class SearchCollectionViewCell: UICollectionViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    func setModelValues(with item: SearchCollectionCellViewModel) {
+         imageView.sd_setImage(with: URL(string: item.artworkUrl100), placeholderImage: UIImage(named: "placeHolder.png"))
+         titleLabel.attributedText = NSAttributedString(string: item.trackName, attributes: [.foregroundColor: UIColor.darkText, .font: UIFont.systemFont(ofSize: 8.0, weight: .medium)])
+        typeLabel.attributedText = NSAttributedString(string: item.kind, attributes: [.foregroundColor: UIColor.darkText, .font: UIFont.systemFont(ofSize: 6.0, weight: .medium)])
+     }
 }

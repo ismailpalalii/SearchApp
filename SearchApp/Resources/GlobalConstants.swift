@@ -17,5 +17,7 @@ struct GlobalConstants{
     static let headerViewReuseIdentifier = "HeaderCollectionViewCell"
     static let footerViewReuseIdentifier = "FooterCollectionViewCell"
     static let cellReuseIdentifier = "SearchCollectionViewCell"
-
+    
+    static let allowedCharacters = CharacterSet(charactersIn:"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvxyz,.!*%+#-_=()&'\"? ").inverted
+    
 }
