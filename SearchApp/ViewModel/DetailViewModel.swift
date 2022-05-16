@@ -10,18 +10,9 @@ import Foundation
 struct DetailViewModel{
 
     let content :SearchModel
-    
-    var artworkUrl30 :String {
-        return self.content.artworkUrl30 ?? ""
-    }
-    var artworkUrl60 :String {
-        return self.content.artworkUrl60 ?? ""
-    }
+
     var artworkUrl100 :String {
         return self.content.artworkUrl100 ?? ""
-    }
-    var explicitness :String {
-        return self.content.explicitness ?? ""
     }
     var trackName :String {
         return self.content.trackName ?? ""
@@ -31,8 +22,5 @@ struct DetailViewModel{
     }
     var primaryGenreName :String {
         return self.content.primaryGenreName ?? ""
-    }
-    var description :String {
-        return self.content.description ?? ""
     }
 }
