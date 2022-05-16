@@ -14,5 +14,8 @@ struct GlobalConstants{
     static let COLOR_NAV_COLOR :UIColor = UIColor(red: 0.898, green: 0, blue: 0, alpha: 1.0)
     static let COLOR_BORDER_BLUE :UIColor = UIColor(red: 0.898, green: 0, blue: 0, alpha: 1.0)
     
+    static let headerViewReuseIdentifier = "HeaderCollectionViewCell"
+    static let footerViewReuseIdentifier = "FooterCollectionViewCell"
+    static let cellReuseIdentifier = "SearchCollectionViewCell"
 
 }

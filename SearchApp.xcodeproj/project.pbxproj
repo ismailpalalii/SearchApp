@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		17484FBF28329C0800004DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484FBE28329C0800004DE5 /* AppDelegate.swift */; };
 		17484FC128329C0800004DE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484FC028329C0800004DE5 /* SceneDelegate.swift */; };
-		17484FC328329C0800004DE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484FC228329C0800004DE5 /* ViewController.swift */; };
+		17484FC328329C0800004DE5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484FC228329C0800004DE5 /* SearchViewController.swift */; };
 		17484FC628329C0800004DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17484FC428329C0800004DE5 /* Main.storyboard */; };
 		17484FC828329C0C00004DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17484FC728329C0C00004DE5 /* Assets.xcassets */; };
 		17484FCB28329C0C00004DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17484FC928329C0C00004DE5 /* LaunchScreen.storyboard */; };
@@ -22,6 +22,10 @@
 		17D1EDE92832B32600DB66DC /* URLSession+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDE82832B32600DB66DC /* URLSession+.swift */; };
 		17D1EDEB2832B35B00DB66DC /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDEA2832B35B00DB66DC /* SearchAPI.swift */; };
 		17D1EDED2832B4B600DB66DC /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDEC2832B4B600DB66DC /* GlobalConstants.swift */; };
+		17D1EDF22832B67200DB66DC /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDF12832B67200DB66DC /* SearchCollectionViewCell.swift */; };
+		17D1EDF52832B6AF00DB66DC /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 17D1EDF42832B6AF00DB66DC /* SDWebImage */; };
+		17D1EDF72832B71800DB66DC /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDF62832B71800DB66DC /* HeaderCollectionViewCell.swift */; };
+		17D1EDF92832B76C00DB66DC /* FooterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDF82832B76C00DB66DC /* FooterCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +49,7 @@
 		17484FBB28329C0800004DE5 /* SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17484FBE28329C0800004DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17484FC028329C0800004DE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17484FC228329C0800004DE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17484FC228329C0800004DE5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		17484FC528329C0800004DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17484FC728329C0C00004DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17484FCA28329C0C00004DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +65,9 @@
 		17D1EDE82832B32600DB66DC /* URLSession+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+.swift"; sourceTree = "<group>"; };
 		17D1EDEA2832B35B00DB66DC /* SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
 		17D1EDEC2832B4B600DB66DC /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		17D1EDF12832B67200DB66DC /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		17D1EDF62832B71800DB66DC /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		17D1EDF82832B76C00DB66DC /* FooterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D1EDF52832B6AF00DB66DC /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,12 +119,10 @@
 		17484FBD28329C0800004DE5 /* SearchApp */ = {
 			isa = PBXGroup;
 			children = (
+				17D1EDEE2832B62700DB66DC /* Scene */,
 				17D1EDE52832B2C400DB66DC /* Network */,
 				17484FEF28329DCD00004DE5 /* Model */,
 				17484FEE28329C8C00004DE5 /* Resources */,
-				17484FC228329C0800004DE5 /* ViewController.swift */,
-				17484FC428329C0800004DE5 /* Main.storyboard */,
-				17484FCC28329C0C00004DE5 /* Info.plist */,
 			);
 			path = SearchApp;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 		17484FEE28329C8C00004DE5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				17484FCC28329C0C00004DE5 /* Info.plist */,
+				17D1EDEC2832B4B600DB66DC /* GlobalConstants.swift */,
 				17484FBE28329C0800004DE5 /* AppDelegate.swift */,
 				17484FC028329C0800004DE5 /* SceneDelegate.swift */,
 				17484FC728329C0C00004DE5 /* Assets.xcassets */,
@@ -164,9 +172,36 @@
 				17D1EDE62832B2E700DB66DC /* SearchResponseModel.swift */,
 				17D1EDE82832B32600DB66DC /* URLSession+.swift */,
 				17D1EDEA2832B35B00DB66DC /* SearchAPI.swift */,
-				17D1EDEC2832B4B600DB66DC /* GlobalConstants.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		17D1EDEE2832B62700DB66DC /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				17D1EDEF2832B62F00DB66DC /* View */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		17D1EDEF2832B62F00DB66DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17484FC228329C0800004DE5 /* SearchViewController.swift */,
+				17484FC428329C0800004DE5 /* Main.storyboard */,
+				17D1EDF02832B64100DB66DC /* CollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17D1EDF02832B64100DB66DC /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				17D1EDF12832B67200DB66DC /* SearchCollectionViewCell.swift */,
+				17D1EDF62832B71800DB66DC /* HeaderCollectionViewCell.swift */,
+				17D1EDF82832B76C00DB66DC /* FooterCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +220,9 @@
 			dependencies = (
 			);
 			name = SearchApp;
+			packageProductDependencies = (
+				17D1EDF42832B6AF00DB66DC /* SDWebImage */,
+			);
 			productName = SearchApp;
 			productReference = 17484FBB28329C0800004DE5 /* SearchApp.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +295,9 @@
 				Base,
 			);
 			mainGroup = 17484FB228329C0800004DE5;
+			packageReferences = (
+				17D1EDF32832B6AF00DB66DC /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 17484FBC28329C0800004DE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -302,13 +343,16 @@
 			files = (
 				17D1EDE72832B2E700DB66DC /* SearchResponseModel.swift in Sources */,
 				17D1EDED2832B4B600DB66DC /* GlobalConstants.swift in Sources */,
-				17484FC328329C0800004DE5 /* ViewController.swift in Sources */,
+				17484FC328329C0800004DE5 /* SearchViewController.swift in Sources */,
 				17D1EDEB2832B35B00DB66DC /* SearchAPI.swift in Sources */,
+				17D1EDF22832B67200DB66DC /* SearchCollectionViewCell.swift in Sources */,
 				17484FBF28329C0800004DE5 /* AppDelegate.swift in Sources */,
 				17D1EDE92832B32600DB66DC /* URLSession+.swift in Sources */,
 				17484FC128329C0800004DE5 /* SceneDelegate.swift in Sources */,
 				17D1EDE42832B26E00DB66DC /* SectionModel.swift in Sources */,
 				17D1EDE22832B25400DB66DC /* SearchModel.swift in Sources */,
+				17D1EDF72832B71800DB66DC /* HeaderCollectionViewCell.swift in Sources */,
+				17D1EDF92832B76C00DB66DC /* FooterCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +533,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 78N4XSKUGS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SearchApp/Info.plist;
+				INFOPLIST_FILE = SearchApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -517,7 +561,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 78N4XSKUGS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SearchApp/Info.plist;
+				INFOPLIST_FILE = SearchApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -652,6 +696,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17D1EDF32832B6AF00DB66DC /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17D1EDF42832B6AF00DB66DC /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17D1EDF32832B6AF00DB66DC /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 17484FB328329C0800004DE5 /* Project object */;
 }
