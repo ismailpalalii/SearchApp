@@ -21,6 +21,7 @@
 		17D1EDE72832B2E700DB66DC /* SearchResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDE62832B2E700DB66DC /* SearchResponseModel.swift */; };
 		17D1EDE92832B32600DB66DC /* URLSession+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDE82832B32600DB66DC /* URLSession+.swift */; };
 		17D1EDEB2832B35B00DB66DC /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDEA2832B35B00DB66DC /* SearchAPI.swift */; };
+		17D1EDED2832B4B600DB66DC /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDEC2832B4B600DB66DC /* GlobalConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		17D1EDE62832B2E700DB66DC /* SearchResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponseModel.swift; sourceTree = "<group>"; };
 		17D1EDE82832B32600DB66DC /* URLSession+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+.swift"; sourceTree = "<group>"; };
 		17D1EDEA2832B35B00DB66DC /* SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
+		17D1EDEC2832B4B600DB66DC /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				17D1EDE62832B2E700DB66DC /* SearchResponseModel.swift */,
 				17D1EDE82832B32600DB66DC /* URLSession+.swift */,
 				17D1EDEA2832B35B00DB66DC /* SearchAPI.swift */,
+				17D1EDEC2832B4B600DB66DC /* GlobalConstants.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17D1EDE72832B2E700DB66DC /* SearchResponseModel.swift in Sources */,
+				17D1EDED2832B4B600DB66DC /* GlobalConstants.swift in Sources */,
 				17484FC328329C0800004DE5 /* ViewController.swift in Sources */,
 				17D1EDEB2832B35B00DB66DC /* SearchAPI.swift in Sources */,
 				17484FBF28329C0800004DE5 /* AppDelegate.swift in Sources */,
