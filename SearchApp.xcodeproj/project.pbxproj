@@ -99,12 +99,9 @@
 		17484FBD28329C0800004DE5 /* SearchApp */ = {
 			isa = PBXGroup;
 			children = (
-				17484FBE28329C0800004DE5 /* AppDelegate.swift */,
-				17484FC028329C0800004DE5 /* SceneDelegate.swift */,
+				17484FEE28329C8C00004DE5 /* Resources */,
 				17484FC228329C0800004DE5 /* ViewController.swift */,
 				17484FC428329C0800004DE5 /* Main.storyboard */,
-				17484FC728329C0C00004DE5 /* Assets.xcassets */,
-				17484FC928329C0C00004DE5 /* LaunchScreen.storyboard */,
 				17484FCC28329C0C00004DE5 /* Info.plist */,
 			);
 			path = SearchApp;
@@ -125,6 +122,17 @@
 				17484FE128329C0C00004DE5 /* SearchAppUITestsLaunchTests.swift */,
 			);
 			path = SearchAppUITests;
+			sourceTree = "<group>";
+		};
+		17484FEE28329C8C00004DE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17484FBE28329C0800004DE5 /* AppDelegate.swift */,
+				17484FC028329C0800004DE5 /* SceneDelegate.swift */,
+				17484FC728329C0C00004DE5 /* Assets.xcassets */,
+				17484FC928329C0C00004DE5 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
