@@ -16,6 +16,8 @@
 		17484FD628329C0C00004DE5 /* SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484FD528329C0C00004DE5 /* SearchAppTests.swift */; };
 		17484FE028329C0C00004DE5 /* SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484FDF28329C0C00004DE5 /* SearchAppUITests.swift */; };
 		17484FE228329C0C00004DE5 /* SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484FE128329C0C00004DE5 /* SearchAppUITestsLaunchTests.swift */; };
+		17D1EDE22832B25400DB66DC /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDE12832B25400DB66DC /* SearchModel.swift */; };
+		17D1EDE42832B26E00DB66DC /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EDE32832B26E00DB66DC /* SectionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		17484FDB28329C0C00004DE5 /* SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17484FDF28329C0C00004DE5 /* SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAppUITests.swift; sourceTree = "<group>"; };
 		17484FE128329C0C00004DE5 /* SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17D1EDE12832B25400DB66DC /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		17D1EDE32832B26E00DB66DC /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		17484FBD28329C0800004DE5 /* SearchApp */ = {
 			isa = PBXGroup;
 			children = (
+				17484FEF28329DCD00004DE5 /* Model */,
 				17484FEE28329C8C00004DE5 /* Resources */,
 				17484FC228329C0800004DE5 /* ViewController.swift */,
 				17484FC428329C0800004DE5 /* Main.storyboard */,
@@ -133,6 +138,15 @@
 				17484FC928329C0C00004DE5 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		17484FEF28329DCD00004DE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17D1EDE12832B25400DB66DC /* SearchModel.swift */,
+				17D1EDE32832B26E00DB66DC /* SectionModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +283,8 @@
 				17484FC328329C0800004DE5 /* ViewController.swift in Sources */,
 				17484FBF28329C0800004DE5 /* AppDelegate.swift in Sources */,
 				17484FC128329C0800004DE5 /* SceneDelegate.swift in Sources */,
+				17D1EDE42832B26E00DB66DC /* SectionModel.swift in Sources */,
+				17D1EDE22832B25400DB66DC /* SearchModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
