@@ -9,5 +9,5 @@ import Foundation
 
 struct SegmentModel{
     let segmentTitle :String
-    let contentList: [ContentModel]
+    let contentList: [SearchModel]
 }

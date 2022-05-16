@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ContentModel: Codable {
+struct SearchModel: Codable {
     var wrapperType: String?
     var kind: String?
     var collectionName: String?
